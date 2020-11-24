@@ -22,7 +22,7 @@ public class TestVod {
         DefaultAcsClient client= null;
         try {
             //1.初始化client客户端，传入keyid和keysecret
-            client=initVodClient("LTAI4GL2FzQb3uP6rXX6QYSJ","myB9XvBtvcu5s2nU0cY1It7Py9cHio");
+            client=initVodClient("keyid","keysecret");
             //2.调用getPlayInfo方法，该方法返回一个response
             GetPlayInfoResponse response=new GetPlayInfoResponse();
             response=getPlayInfo(client);

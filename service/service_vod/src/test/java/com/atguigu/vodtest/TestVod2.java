@@ -19,7 +19,7 @@ public class TestVod2 {
     public static void getPlayAuth(){
         DefaultAcsClient client= null;
         try {
-            client=initVodClient("LTAI4GL2FzQb3uP6rXX6QYSJ","myB9XvBtvcu5s2nU0cY1It7Py9cHio");
+            client=initVodClient("keyid","keysecret");
             GetVideoPlayAuthResponse response = new GetVideoPlayAuthResponse();
             response=getVideoPlayAuth(client);
             System.out.println("palyAuth:"+response.getPlayAuth());

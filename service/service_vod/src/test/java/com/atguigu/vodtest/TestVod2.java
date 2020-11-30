@@ -32,7 +32,7 @@ public class TestVod2 {
     }
     public static void main(String[] args) {
         //上传视频
-            String accessKeyId=";
+            String accessKeyId="";
             String accessKeySecret="";
             String title="6 - What If I Want to Move Faster - upload by sdk";
             String fileName="C:\\Users\\13604\\Desktop\\在线教育项目实战资料\\1-阿里云上传测试视频\\6 - What If I Want to Move Faster.mp4";
